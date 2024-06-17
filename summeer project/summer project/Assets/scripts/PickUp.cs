@@ -20,6 +20,7 @@ public class PickUp : MonoBehaviour
     {
         if (collider.gameObject.CompareTag ("Player")){
             Destroy(this.gameObject);
+            GameManager.Instance.UpdateScore(1);
         }
     }
 }
