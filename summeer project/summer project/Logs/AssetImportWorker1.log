@@ -22,7 +22,7 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-49220
+51364
 Successfully changed project path to: /Users/admin/Documents/GitHub/unity-projects/summeer project/summer project
 /Users/admin/Documents/GitHub/unity-projects/summeer project/summer project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -56,12 +56,12 @@ Successfully changed project path to: /Users/admin/Documents/GitHub/unity-projec
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8641907712] Host "[IP] 192.168.12.211 [Port] 0 [Flags] 2 [Guid] 2454651979 [EditorId] 2454651979 [Version] 1048832 [Id] OSXEditor(0,OAK11Blk.lan) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8641907712] Host "[IP] 192.168.12.211 [Port] 0 [Flags] 2 [Guid] 4063083361 [EditorId] 4063083361 [Version] 1048832 [Id] OSXEditor(0,OAK11BlkMac05.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [8641907712] Host "[IP] 192.168.12.211 [Port] 0 [Flags] 2 [Guid] 2454651979 [EditorId] 2454651979 [Version] 1048832 [Id] OSXEditor(0,OAK11Blk.lan) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8641907712] Host "[IP] 192.168.12.211 [Port] 0 [Flags] 2 [Guid] 4063083361 [EditorId] 4063083361 [Version] 1048832 [Id] OSXEditor(0,OAK11BlkMac05.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
-Refreshing native plugins compatible for Editor in 21.53 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 17.60 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.28f1 (6bae5ce6b222)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -76,44 +76,44 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56071
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56933
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.003395 seconds.
-- Loaded All Assemblies, in  0.488 seconds
+Registered in 0.002427 seconds.
+- Loaded All Assemblies, in  0.455 seconds
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.351 seconds
-Domain Reload Profiling: 839ms
-	BeginReloadAssembly (137ms)
+- Finished resetting the current domain, in  0.437 seconds
+Domain Reload Profiling: 893ms
+	BeginReloadAssembly (131ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (50ms)
+	RebuildCommonClasses (47ms)
 	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (72ms)
-	LoadAllAssembliesAndSetupDomain (212ms)
-		LoadAssemblies (137ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (203ms)
+		LoadAssemblies (131ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (208ms)
-			TypeCache.Refresh (207ms)
-				TypeCache.ScanAssembly (187ms)
+		AnalyzeDomain (201ms)
+			TypeCache.Refresh (199ms)
+				TypeCache.ScanAssembly (179ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (351ms)
+	FinalizeReload (438ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (269ms)
+		SetupLoadedEditorAssemblies (350ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (9ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (11ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (188ms)
-			ProcessInitializeOnLoadMethodAttributes (59ms)
+			ProcessInitializeOnLoadAttributes (238ms)
+			ProcessInitializeOnLoadMethodAttributes (86ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -121,56 +121,56 @@ Domain Reload Profiling: 839ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.757 seconds
-Refreshing native plugins compatible for Editor in 1.38 ms, found 2 plugins.
+- Loaded All Assemblies, in  0.796 seconds
+Refreshing native plugins compatible for Editor in 1.49 ms, found 2 plugins.
 Native extension for OSXStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.662 seconds
-Domain Reload Profiling: 1420ms
-	BeginReloadAssembly (110ms)
+- Finished resetting the current domain, in  0.826 seconds
+Domain Reload Profiling: 1624ms
+	BeginReloadAssembly (105ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (27ms)
-	RebuildCommonClasses (38ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (38ms)
-	LoadAllAssembliesAndSetupDomain (557ms)
-		LoadAssemblies (313ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (606ms)
+		LoadAssemblies (333ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (289ms)
-			TypeCache.Refresh (267ms)
-				TypeCache.ScanAssembly (241ms)
+		AnalyzeDomain (316ms)
+			TypeCache.Refresh (294ms)
+				TypeCache.ScanAssembly (248ms)
 			ScanForSourceGeneratedMonoScriptInfo (14ms)
 			ResolveRequiredComponents (6ms)
-	FinalizeReload (663ms)
+	FinalizeReload (827ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (480ms)
+		SetupLoadedEditorAssemblies (618ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (66ms)
-			ProcessInitializeOnLoadAttributes (381ms)
-			ProcessInitializeOnLoadMethodAttributes (21ms)
+			BeforeProcessingInitializeOnLoad (98ms)
+			ProcessInitializeOnLoadAttributes (480ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
 Launching external process: /Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.06 seconds
-Refreshing native plugins compatible for Editor in 1.51 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.07 seconds
+Refreshing native plugins compatible for Editor in 2.24 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3155 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 33 unused Assets / (52.1 KB). Loaded Objects now: 3637.
-Memory consumption went from 144.8 MB to 144.7 MB.
-Total: 4.405250 ms (FindLiveObjects: 0.195333 ms CreateObjectMapping: 0.074958 ms MarkObjects: 4.004500 ms  DeleteObjects: 0.129666 ms)
+Unloading 3160 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (52.2 KB). Loaded Objects now: 3644.
+Memory consumption went from 146.7 MB to 146.7 MB.
+Total: 4.371750 ms (FindLiveObjects: 0.159125 ms CreateObjectMapping: 0.074292 ms MarkObjects: 4.018917 ms  DeleteObjects: 0.118667 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -187,9 +187,121 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 435.966927 seconds.
-  path: Assets/SimpleNaturePack/Prefabs/NewLayer.terrainlayer
-  artifactKey: Guid(c43c3c89590954b4a9a65dd4243adcc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleNaturePack/Prefabs/NewLayer.terrainlayer using Guid(c43c3c89590954b4a9a65dd4243adcc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99861f3d9cdc22e9bc3d6ae328f7c881') in 0.112422 seconds
+  Time since last request: 7625.711437 seconds.
+  path: Packages/com.unity.ide.rider/package.json
+  artifactKey: Guid(66c95bb3c74257f41bae2622511dc02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ide.rider/package.json using Guid(66c95bb3c74257f41bae2622511dc02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e55ad3eb87bbc7da77578c19c4613672') in 0.014810 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 20.716395 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_GroundGrassColorGroundDirtNormal2023054508611406.terrainlayer
+  artifactKey: Guid(d989bab9d1157438f8dc2cd3977a4ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_GroundGrassColorGroundDirtNormal2023054508611406.terrainlayer using Guid(d989bab9d1157438f8dc2cd3977a4ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b22be4485fd9e7e347ce01e2864a0a5') in 0.081911 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_GroundTilesBrokenColorGroundTilesBrokenNormal793646612c42751.terrainlayer
+  artifactKey: Guid(7e9875855994c4b60a5bfa9f9c2b1854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_GroundTilesBrokenColorGroundTilesBrokenNormal793646612c42751.terrainlayer using Guid(7e9875855994c4b60a5bfa9f9c2b1854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42dc6731d8401b4f11c49e0bf6bf5016') in 0.009517 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000409 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_GroundTiles2ColorGroundTiles2Normalf2ee06e0fffcd150.terrainlayer
+  artifactKey: Guid(a0d58981c7e144b478f4abb86a2b33c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_GroundTiles2ColorGroundTiles2Normalf2ee06e0fffcd150.terrainlayer using Guid(a0d58981c7e144b478f4abb86a2b33c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1fda544df5fd8560f4620f06c999124') in 0.012940 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_GroundTilesColorGroundTilesNormal793646612c42751.terrainlayer
+  artifactKey: Guid(95df9ff9baf684019b47e5f67316f14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_GroundTilesColorGroundTilesNormal793646612c42751.terrainlayer using Guid(95df9ff9baf684019b47e5f67316f14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29a0a9766a17e7e5017c661e751255ed') in 0.020021 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000498 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_GroundSandColorGroundDirtNormal2023054508611406.terrainlayer
+  artifactKey: Guid(56db13715f7f84304955d04f2fc3c380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_GroundSandColorGroundDirtNormal2023054508611406.terrainlayer using Guid(56db13715f7f84304955d04f2fc3c380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45dfcc85094979565f3fe7f9575b1ddf') in 0.009839 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 235.981998 seconds.
+  path: Assets/BrokenVector/LowPolyBrickHouses/Prefabs/Birchtree.prefab
+  artifactKey: Guid(37338ca5476fa424c932cea9208100d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyBrickHouses/Prefabs/Birchtree.prefab using Guid(37338ca5476fa424c932cea9208100d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75d3d1f761cc931e2a7716e3f5230833') in 0.667752 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/BrokenVector/LowPolyBrickHouses/Prefabs/FenceEnd.prefab
+  artifactKey: Guid(4b9dc5e7010a14f4aab81de3a20f07b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyBrickHouses/Prefabs/FenceEnd.prefab using Guid(4b9dc5e7010a14f4aab81de3a20f07b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b73433affde3779d6e05ed4d1d8d9320') in 0.008181 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/BrokenVector/LowPolyBrickHouses/Prefabs/Foliage_3.prefab
+  artifactKey: Guid(dc83d82e59754f34ea737a544b53fc9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyBrickHouses/Prefabs/Foliage_3.prefab using Guid(dc83d82e59754f34ea737a544b53fc9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db83189a45cdba024637d7cebb049897') in 0.710393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/BrokenVector/LowPolyBrickHouses/Prefabs/House_1.prefab
+  artifactKey: Guid(f2b055ed15f48bd4793c0d0ef6185ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyBrickHouses/Prefabs/House_1.prefab using Guid(f2b055ed15f48bd4793c0d0ef6185ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f479264032e6835aea7caa15807a14bf') in 0.011626 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 55
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/BrokenVector/LowPolyBrickHouses/Prefabs/Church.prefab
+  artifactKey: Guid(d0a0bad0f2561674f85b5a72c1eb19b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyBrickHouses/Prefabs/Church.prefab using Guid(d0a0bad0f2561674f85b5a72c1eb19b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac0be2c34eaa45c802ed6647794248fb') in 0.090839 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 147.382086 seconds.
+  path: Assets/BrokenVector/LowPolyBrickHouses/Prefabs/House_6.prefab
+  artifactKey: Guid(5ff647d15160e7e42917b3e338c66c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyBrickHouses/Prefabs/House_6.prefab using Guid(5ff647d15160e7e42917b3e338c66c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdb7433eb5303d3d2aaef58fb000c624') in 0.027544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.097710 seconds.
+  path: Assets/BrokenVector/LowPolyBrickHouses/Prefabs/Parasol.prefab
+  artifactKey: Guid(9552a629a90d25c41bc7836cad49268a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyBrickHouses/Prefabs/Parasol.prefab using Guid(9552a629a90d25c41bc7836cad49268a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '994de8ea488ee69162c54bd5da7668dc') in 0.007208 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.317462 seconds.
+  path: Assets/BrokenVector/LowPolyBrickHouses/Prefabs/RiverLand.prefab
+  artifactKey: Guid(f7752189d25c7ce4887212db1164ed51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyBrickHouses/Prefabs/RiverLand.prefab using Guid(f7752189d25c7ce4887212db1164ed51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f927d6f14f02f456a20ca7e07c5fba9') in 0.005890 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.035341 seconds.
+  path: Assets/BrokenVector/LowPolyBrickHouses/Prefabs/RiverWall.prefab
+  artifactKey: Guid(a7eb417a6c9b1d94aa4238bd72633934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyBrickHouses/Prefabs/RiverWall.prefab using Guid(a7eb417a6c9b1d94aa4238bd72633934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bce9518f6486cb914e570ac23722533') in 0.535189 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
