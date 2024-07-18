@@ -357,6 +357,7 @@
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/BrokenVector/LowPolyBrickHouses/Scripts/ModelCustomizer.cs"
 "Assets/GhostCharacter_Free/Scripts/GhostScript.cs"
+"Assets/scripts/CameraControls.cs"
 "Assets/scripts/CameraTarget.cs"
 "Assets/scripts/CharMover.cs"
 "Assets/scripts/EnemyFollow.cs"
